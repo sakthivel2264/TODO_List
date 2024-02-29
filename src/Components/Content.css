@@ -1,0 +1,90 @@
+/* Main container */
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0000003c;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  flex-grow: 1;
+  padding-bottom: 150px;
+}
+
+/* Form styles */
+.form-newtask {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-newtask input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-newtask button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-newtask button:hover {
+  background-color: #45a049;
+}
+
+/* List styles */
+.List {
+  list-style: none;
+  padding: 0;
+}
+
+.List li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.List li input[type="checkbox"] {
+  margin-right: 10px;
+}
+.List li label {
+  margin-right: auto; 
+}
+
+/* Delete button styles */
+.delete-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Footer styles */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #0000002d;
+  color: #fff;
+  font-size: 14px;
+}

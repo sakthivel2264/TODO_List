@@ -1,0 +1,19 @@
+/* App container */
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Title styles */
+.Container h1 {
+  text-align: center;
+}
+
+/* Content container */
+.Content {
+  text-align: center; 
+}
+
+
