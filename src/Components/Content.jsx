@@ -44,7 +44,8 @@ function Content() {
 
   return (
     <>
-    <main>
+    
+      <main>
       <form onSubmit={handleSubmit} className="form-newtask">
         <input 
         type="text"
@@ -68,9 +69,6 @@ function Content() {
         ))}
       </ol>
     </main>
-    <footer>
-      Copyright &copy; {year()}
-    </footer>
     </>
   )
 }

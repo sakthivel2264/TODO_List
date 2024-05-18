@@ -10,7 +10,7 @@ main {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #0000003c;
+  background-color: #000000b4;
   border-radius: 10px;
   border: 2px solid #fff;
   flex-grow: 1;
@@ -77,14 +77,4 @@ main {
   background-color: #d32f2f;
 }
 
-/* Footer styles */
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-  background-color: #0000002d;
-  color: #fff;
-  font-size: 14px;
-}
+
